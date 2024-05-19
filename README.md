@@ -1,6 +1,7 @@
-# SEC 프로세스를 통한 이종 산업 간 데이터 결합 문제 해결
-
-# ⭐️ Contributors
+# ⭐️ SEC 프로세스를 통한 이종 산업 간 데이터 결합 문제 해결
+- 기간 : 2024.03.05 ~ 2024.05.20
+- 팀원 : 오현진, 정수민, 정은혜
+- 프로젝트 성과 : 한국데이터정보과학회 춘계학술대회 참가(포스터 부문), KCI 논문 투고(on review)
 
 &nbsp;
 
@@ -61,7 +62,7 @@
 3. 결합 대상 데이터가 적은 경우, 데이터의 첫번째 인덱스로 돌아가 이를 반복
 
 ## 👍🏻 benefit
-= 데이터 손실이 없는 결합 방식
+- 데이터 손실이 없는 결합 방식
 - 최소한의 고유정보를 기준으로 그룹화→ 주체가 특정될 위험 감소
 
 &nbsp;
@@ -75,6 +76,59 @@
 &nbsp;
 
 # 📝 학습 및 예측 결과
+<table>
+  <tr>
+    <td rowspan="2"> Data </td>
+    <td> Accuracy </td>
+    <td> Precision </td>
+    <td> Recall </td>
+    <td> F1 Score </td>
+  </tr>
+  <tr>
+    <td colspan="3"> Credit card deliquency prediction data </td>
+    <td> Original data </td>
+    <td> 0.49 </td>
+    <td> 0.16 </td>
+    <td> 0.33 </td>
+    <td> 0.22 </td>
+  </tr>
+  <tr>
+    <td> SEC processed data </td>
+    <td> 0.50 </td>
+    <td> 0.44 </td>
+    <td> 0.39 </td>
+    <td> 0.35 </td>
+  </tr>
+  <tr>
+    <td> STC processed data </td>
+    <td> 0.51 </td>
+    <td> 0.32 </td>
+    <td> 0.38 </td>
+    <td> 0.31 </td>
+  </tr>
+  <tr>
+    <td colspan="3"> Health insurance interest prediction data </td>
+    <td> Original data </td>
+    <td> 0.68 </td>
+    <td> 0.40 </td>
+    <td> 0.00 </td>
+    <td> 0.00 </td>
+  </tr>
+  <tr>
+    <td> SEC processed data </td>
+    <td> 0.76 </td>
+    <td> 0.58 </td>
+    <td> 0.76 </td>
+    <td> 0.66 </td>
+  </tr>
+  <tr>
+    <td> STC processed data </td>
+    <td> 0.76 </td>
+    <td> 0.60 </td>
+    <td> 0.71 </td>
+    <td> 0.65 </td>
+  </tr>
+</table>
 
 &nbsp;
 
