@@ -78,14 +78,14 @@
 # 📝 학습 및 예측 결과
 <table>
   <tr>
-    <td rowspan="2"> Data </td>
+    <td colspan="2"> Data </td>
     <td> Accuracy </td>
     <td> Precision </td>
     <td> Recall </td>
     <td> F1 Score </td>
   </tr>
   <tr>
-    <td colspan="3"> Credit card deliquency prediction data </td>
+    <td rowspan="3"> Credit card deliquency prediction data </td>
     <td> Original data </td>
     <td> 0.49 </td>
     <td> 0.16 </td>
@@ -107,7 +107,7 @@
     <td> 0.31 </td>
   </tr>
   <tr>
-    <td colspan="3"> Health insurance interest prediction data </td>
+    <td rowspan="3"> Health insurance interest prediction data </td>
     <td> Original data </td>
     <td> 0.68 </td>
     <td> 0.40 </td>
