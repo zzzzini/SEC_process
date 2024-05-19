@@ -2,8 +2,7 @@
 
 ## ⭐️ Contributors
 
-
-***
+&nbsp;
 
 ## 💡 Motivation
 
@@ -35,16 +34,26 @@
 
 🤔 개인정보 유출 문제로부터 안전하면서도, 실시간으로 데이터를 결합할 수 있는 직접적인 데이터 결합 방법은 없을까?
 
-***
+&nbsp;
 
 ## ⚙️ STC(STatistical Data Combination) 프로세스
 
+&nbsp;
+
 ## ⚙️ SEC(SEquential Data Combination) 프로세스
+
+&nbsp;
 
 ## 📖 Federated learning
 
+&nbsp;
+
 ## 📖 Split learning
 
+&nbsp;
+
 ## 📝 학습 및 예측 결과
+
+&nbsp;
 
 ## 😎 결론 및 시사점
